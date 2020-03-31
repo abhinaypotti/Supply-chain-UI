@@ -93,7 +93,63 @@ video#bgvideo{
   display: block;
 }
  
+.imgdet
+{
+    display: block;
+    margin-left: 135px;
+    height:150px;
+    width:200px;
+    border: 1px solid snow;
+    border-radius: 4px;
+    padding: 10px;
+}
 
+ul.dettxt
+{
+    margin-left: 10px;
+    list-style-type: square;
+    color:white;
+    line-height:1.8;
+    font-size:25px;
+}
+
+.bor
+{
+    margin: 5px 200px 30px 50px;
+    border-style:solid;
+    border-color:snow;
+    border-radius: 40px;
+    border width:5px;
+    padding-bottom:5px;
+}
+
+hr
+{
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+table {
+  width:600px;
+  height:300px;
+  font-family: arial, sans-serif;
+  color:snow;
+  border-collapse: collapse;
+  border-width:5px;
+}
+
+td, th {
+  border: 3px solid ;
+  color:snow;
+  text-align: center;
+  font-size:25px;
+  padding: 8px;
+}
 
 /*Style the footer*/
 .footer{
